@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  main{
+    width: 80%;
+    background: aliceblue;
+    border: 1px dashed #333;
+    margin: auto;
+  }
+  
+  article{
+    overflow: auto;
+    height: 400px;
+    box-sizing: border-box;
+  }
+  article img{
+    float: left;
+    margin-right: 10px;
+  }
+  article img:nth-child(4){
+    float: right;
+  }
+  article img:nth-child(6){
+    float: right;
+  }
+  article p{
+    margin: 0px;
+  }
